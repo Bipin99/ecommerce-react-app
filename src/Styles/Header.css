@@ -1,0 +1,139 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+ 
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 40px;
+    width: auto;
+  }
+  
+
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ff5722;
+  }
+  
+ 
+  .search-bar {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 30px;
+
+    margin-right: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .search-bar:focus {
+    border-color: #ff5722;
+    outline: none;
+  }
+
+  .cart-icon {
+    font-size: 1.8rem;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .cart-icon:hover {
+    color: #ff5722;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+    .navbar li {
+      margin: 10px 0;
+    }
+  
+    .header-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  }
+  
+.header {
+    background: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .home-link, .auth-link, .cart-link, .user-greeting, .sign-out-btn {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .home-link:hover, .auth-link:hover, .cart-link:hover, .sign-out-btn:hover {
+    color: #007bff;
+  }
+  
+  .user-greeting {
+    font-weight: bold;
+  }
+  
+  .sign-out-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
