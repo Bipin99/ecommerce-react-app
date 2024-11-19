@@ -9,9 +9,8 @@ This is a fully functional e-commerce web application built with React, Firebase
 - [Setup and Installation](#setup-and-installation)
 - [Firebase Setup](#firebase-setup)
 - [Stripe Integration](#stripe-integration)
-- [Testing](#testing)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Technologies Used
 
@@ -22,7 +21,7 @@ This is a fully functional e-commerce web application built with React, Firebase
 - **State Management:** React Context API
 - **Routing:** React Router
 - **Styling:** SCSS, CSS Modules
-- **Testing:** Jest, React Testing Library
+
 
 ## Features
 
